@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Chat Interface</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <header>
+        <h1 id="logo">DouVT Hub</h1>
+        <nav>
+            <a href="/Front_Page/index.html">Home</a>
+            <a href="#">About</a>
+           <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section id="chat-container">
+        <div id="messages">
+            <div class="message">
+                <div class="message-header">
+                    <img src="https://api.adorable.io/avatars/50/abott@adorable.png" alt="User Avatar">
+                    <span>User 1</span>
+                </div>
+                <div class="message-content">
+                    Hello, how are you?
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-header">
+                    <img src="https://api.adorable.io/avatars/50/abott@adorable.png" alt="User Avatar">
+                    <span>User 2</span>
+                </div>
+                <div class="message-content">
+                    I'm good, thanks. How about you?
+                </div>
+            </div>
+            <div class="message">
+                <div class="message-header">
+                    <img src="https://api.adorable.io/avatars/50/abott@adorable.png" alt="User Avatar">
+                    <span>User 1</span>
+                </div>
+                <div class="message-content">
+                    I'm also good.
+                </div>
+            </div>
+        </div>
+        <form id="message-form">
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button id="message-send-button">Send</button>
+        </form>
+    </section>
+    
+</body>
+</html>
